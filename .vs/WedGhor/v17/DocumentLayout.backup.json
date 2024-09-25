@@ -1,0 +1,597 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\WedGhor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\bkashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\bkashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\customerpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\bookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\nagadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\nagadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\nagadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\nagadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\bkashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\bkashform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\customerloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\customerloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\vieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\vieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\adminpannelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\adminpannelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\paidcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\paidcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\staffscedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffscedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\staffvieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffvieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\staffpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\staffpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\companyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\staffloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|D:\\c#\\WedGhor\\wedghor\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\staffvieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffvieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\staffscedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffscedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\vieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\vieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/SAFWAN/WeddingPlanner/True/SqlTable/dbo.CustomerConfirmTbl.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\adminpannelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\adminpannelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|d:\\c#\\wedghor\\wedghor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF145971-5CBB-44C8-A7D1-AB687BB33338}|WedGhor\\WedGhor.csproj|solutionrelative:wedghor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\BookingForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\BookingForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\BookingForm.cs",
+              "RelativeToolTip": "WedGhor\\BookingForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:46:59.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerPanel.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CustomerPanel.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CustomerPanel.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CustomerPanel.cs",
+              "RelativeToolTip": "WedGhor\\CustomerPanel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAASwCgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:32:58.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerPanel.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CustomerPanel.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CustomerPanel.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CustomerPanel.cs [Design]",
+              "RelativeToolTip": "WedGhor\\CustomerPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T12:22:24.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BkashForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\BkashForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\BkashForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\BkashForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\BkashForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:58:21.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\BookingForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\BookingForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\BookingForm.cs [Design]*",
+              "RelativeToolTip": "WedGhor\\BookingForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:51:18.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NagadForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\NagadForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\NagadForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\NagadForm.cs",
+              "RelativeToolTip": "WedGhor\\NagadForm.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIA7wDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T10:30:21.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BkashForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\BkashForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\BkashForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\BkashForm.cs",
+              "RelativeToolTip": "WedGhor\\BkashForm.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAApwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:58:23.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NagadForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\NagadForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\NagadForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\NagadForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\NagadForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:50:24.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\PaymentForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\PaymentForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\PaymentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T10:01:24.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\PaymentForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\PaymentForm.cs",
+              "RelativeToolTip": "WedGhor\\PaymentForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAawBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T10:08:34.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CustomerForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CustomerForm.cs",
+              "RelativeToolTip": "WedGhor\\CustomerForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA7wCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:13:37.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\Form1.cs",
+              "RelativeDocumentMoniker": "WedGhor\\Form1.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\Form1.cs [Design]",
+              "RelativeToolTip": "WedGhor\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T09:49:57.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CustomerForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CustomerForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\CustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:03:22.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerLoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CustomerLoginForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CustomerLoginForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CustomerLoginForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\CustomerLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:39:09.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewOrder.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\ViewOrder.cs",
+              "RelativeDocumentMoniker": "WedGhor\\ViewOrder.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\ViewOrder.cs [Design]",
+              "RelativeToolTip": "WedGhor\\ViewOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:51:27.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StaffForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\StaffForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:51:32.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminPannelForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\AdminPannelForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\AdminPannelForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\AdminPannelForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\AdminPannelForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:28:05.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminLoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\AdminLoginForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\AdminLoginForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\AdminLoginForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\AdminLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T17:48:40.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StaffScedule.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffScedule.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffScedule.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffScedule.cs [Design]",
+              "RelativeToolTip": "WedGhor\\StaffScedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:17:49.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StaffViewOrder.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffViewOrder.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffViewOrder.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffViewOrder.cs [Design]",
+              "RelativeToolTip": "WedGhor\\StaffViewOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T11:11:23.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaidCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\PaidCustomer.cs",
+              "RelativeDocumentMoniker": "WedGhor\\PaidCustomer.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\PaidCustomer.cs [Design]",
+              "RelativeToolTip": "WedGhor\\PaidCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:01:54.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StaffPanelForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffPanelForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffPanelForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffPanelForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\StaffPanelForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:39:57.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StaffPanelForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffPanelForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffPanelForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffPanelForm.cs",
+              "RelativeToolTip": "WedGhor\\StaffPanelForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:35:37.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CompanyForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CompanyForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CompanyForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CompanyForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\CompanyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T02:38:33.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CompanyForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\CompanyForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\CompanyForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\CompanyForm.cs",
+              "RelativeToolTip": "WedGhor\\CompanyForm.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:56:26.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StaffLoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffLoginForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffLoginForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffLoginForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\StaffLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T02:37:03.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SignUpForm.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\SignUpForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\SignUpForm.cs [Design]",
+              "RelativeToolTip": "WedGhor\\SignUpForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:51:35.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StaffViewOrder.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffViewOrder.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffViewOrder.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffViewOrder.cs",
+              "RelativeToolTip": "WedGhor\\StaffViewOrder.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAApwBgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T11:13:34.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StaffScedule.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffScedule.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffScedule.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffScedule.cs",
+              "RelativeToolTip": "WedGhor\\StaffScedule.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwIMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:16:14.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViewOrder.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\ViewOrder.cs",
+              "RelativeDocumentMoniker": "WedGhor\\ViewOrder.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\ViewOrder.cs",
+              "RelativeToolTip": "WedGhor\\ViewOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:56:28.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "dbo.CustomerConfirmTbl.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/SAFWAN/WeddingPlanner/True/SqlTable/dbo.CustomerConfirmTbl.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/SAFWAN/WeddingPlanner/True/SqlTable/dbo.CustomerConfirmTbl.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-21T10:16:02.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminPannelForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\AdminPannelForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\AdminPannelForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\AdminPannelForm.cs",
+              "RelativeToolTip": "WedGhor\\AdminPannelForm.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAWwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:36:39.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StaffForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\StaffForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\StaffForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\StaffForm.cs",
+              "RelativeToolTip": "WedGhor\\StaffForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T21:11:14.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminLoginForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\AdminLoginForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\AdminLoginForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\AdminLoginForm.cs",
+              "RelativeToolTip": "WedGhor\\AdminLoginForm.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T07:23:03.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SignUpForm.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "WedGhor\\SignUpForm.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\SignUpForm.cs",
+              "RelativeToolTip": "WedGhor\\SignUpForm.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAEwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:24:00.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\Program.cs",
+              "RelativeDocumentMoniker": "WedGhor\\Program.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\Program.cs",
+              "RelativeToolTip": "WedGhor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:35:07.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\c#\\WedGhor\\WedGhor\\Form1.cs",
+              "RelativeDocumentMoniker": "WedGhor\\Form1.cs",
+              "ToolTip": "D:\\c#\\WedGhor\\WedGhor\\Form1.cs",
+              "RelativeToolTip": "WedGhor\\Form1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:15:27.879Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
