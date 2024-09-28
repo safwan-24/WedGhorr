@@ -84,5 +84,10 @@ namespace WedGhor
             sf.Show();
             this.Hide();
         }
+
+        private void CompanyForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

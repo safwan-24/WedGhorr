@@ -137,6 +137,7 @@
             pictureBox1.Size = new Size(738, 323);
             pictureBox1.TabIndex = 16;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // AdminLoginForm
             // 

@@ -42,3 +42,4 @@ D:\c#\WedGhor\WedGhor\obj\Debug\net8.0-windows\WedGhor.PaidCustomer.resources
 D:\c#\WedGhor\WedGhor\obj\Debug\net8.0-windows\WedGhor.Properties.Resources.resources
 D:\c#\WedGhor\WedGhor\obj\Debug\net8.0-windows\WedGhor.CustomerPanel.resources
 D:\c#\WedGhor\WedGhor\obj\Debug\net8.0-windows\WedGhor.CustomerTrackOrder.resources
+D:\c#\WedGhor\WedGhor\obj\Debug\net8.0-windows\WedGhor.sourcelink.json

@@ -161,5 +161,21 @@ namespace WedGhor
         {
             Application.Exit();
         }
+
+        private void CheckProfitButton_Click(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(TotalCostTb.Text, out decimal totalCost))
+            {
+                // Calculate 5% of the total cost
+                decimal profit = totalCost * 0.05m;
+
+                // Display the result in textBox1
+                textBox1.Text = profit.ToString("F2"); // Format to 2 decimal places
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid total cost.");
+            }
+        }
     }
 }

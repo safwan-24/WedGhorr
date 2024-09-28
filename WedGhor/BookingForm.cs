@@ -20,6 +20,10 @@ namespace WedGhor
         }
         private int drinkCost = 0;
         private int biriyaniCost = 0;
+        private int SetMenu1 = 0;
+        private int SetMenu2 = 0;
+        private int SetMenu3 = 0;
+        private int SetMenu4 = 0;
         private void SetDefaultValues()
         {
             // Set default values for price textboxes
@@ -30,6 +34,11 @@ namespace WedGhor
             ChickenPrice.Text = "220";
             BeefPrice.Text = "280";
 
+            SM1PTb.Text = "420";
+            SM2PTb.Text = "400";
+            SM3PTb.Text = "580";
+            SM4PTb.Text = "520";
+
             // Make price textboxes uneditable
             WaterPrice.ReadOnly = true;
             CokePrice.ReadOnly = true;
@@ -37,6 +46,11 @@ namespace WedGhor
             MuttonPrice.ReadOnly = true;
             ChickenPrice.ReadOnly = true;
             BeefPrice.ReadOnly = true;
+
+            SM1PTb.ReadOnly = true;
+            SM2PTb.ReadOnly = true;
+            SM3PTb.ReadOnly = true;
+            SM4PTb.ReadOnly = true;
 
             // Set initial state of WaterPrice and WaterQty controls
             WaterPrice.Enabled = WaterCb.Checked;
@@ -51,6 +65,17 @@ namespace WedGhor
             ChickenQty.Enabled = ChickenCb.Checked;
             BeefPrice.Enabled = BeefCb.Checked;
             BeefQty.Enabled = BeefCb.Checked;
+
+            SM2PTb.Enabled = SM2Cb.Checked;
+            SM3PTb.Enabled = SM3Cb.Checked;
+            SM4PTb.Enabled = SM4Cb.Checked;
+            SM1PTb.Enabled = SM1Cb.Checked;
+
+
+            SM2QTb.Enabled = SM2Cb.Checked;
+            SM3QTb.Enabled = SM3Cb.Checked;
+            SM4QTb.Enabled = SM4Cb.Checked;
+            SM1QTb.Enabled = SM1Cb.Checked;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -224,7 +249,7 @@ namespace WedGhor
 
         private void UpdateTotalCost()
         {
-            int totalCost = drinkCost + biriyaniCost;
+            int totalCost = drinkCost + biriyaniCost + SetMenu1 + SetMenu2 + SetMenu3 + SetMenu4;
             GridTotalTb.Text = totalCost.ToString();
         }
 
@@ -249,19 +274,52 @@ namespace WedGhor
         {
             int drinkCost = Convert.ToInt32(DrinkCostLbl.Text);
             int biriyaniCost = Convert.ToInt32(BiriyaniCostLbl.Text);
-            int totalCost = drinkCost + biriyaniCost;
+            int totalCost = drinkCost + biriyaniCost + SetMenu1 + SetMenu2 + SetMenu3 + SetMenu4;
 
-            // Insert into database and retrieve BookingId using SCOPE_IDENTITY()
-            string query = @"INSERT INTO ViewBookingTbl (WaterPrice, WaterQty, CokePrice, CokeQty, CocktailPrice, CocktailQty, 
-                                                MuttonPrice, MuttonQty, ChickenPrice, ChickenQty, BeefPrice, BeefQty, 
-                                                TotalCost, Person) 
-                     VALUES (@WaterPrice, @WaterQty, @CokePrice, @CokeQty, @CocktailPrice, @CocktailQty, @MuttonPrice, 
-                             @MuttonQty, @ChickenPrice, @ChickenQty, @BeefPrice, @BeefQty, @TotalCost, @Person);
-                     SELECT SCOPE_IDENTITY();";
+            // Get the selected date and time slot
+            DateTime bookingDate = dateTimePicker1.Value.Date;
+
+            // Ensure a slot is selected before proceeding
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a booking slot (Day or Night).");
+                return;
+            }
+
+            string bookingSlot = comboBox1.SelectedItem.ToString(); // "Day" or "Night"
+
+            // Query to check if the same date and slot are already booked
+            string checkQuery = @"SELECT COUNT(*) FROM ViewBookingTbl 
+                          WHERE BookingDate = @BookingDate 
+                          AND BookingSlot = @BookingSlot";
 
             try
             {
                 Con.Open();
+
+                // Check if the booking already exists
+                SqlCommand checkCmd = new SqlCommand(checkQuery, Con);
+                checkCmd.Parameters.AddWithValue("@BookingDate", bookingDate);
+                checkCmd.Parameters.AddWithValue("@BookingSlot", bookingSlot);
+
+                int existingBookings = (int)checkCmd.ExecuteScalar();
+
+                if (existingBookings > 0)
+                {
+                    MessageBox.Show("This time slot is already booked. Please try another time.");
+                    Con.Close();
+                    return; // Exit the method to avoid inserting duplicate booking
+                }
+
+                // Proceed to insert the booking if no conflict
+                string query = @"INSERT INTO ViewBookingTbl (WaterPrice, WaterQty, CokePrice, CokeQty, CocktailPrice, CocktailQty, 
+                                                   MuttonPrice, MuttonQty, ChickenPrice, ChickenQty, BeefPrice, BeefQty, 
+                                                   TotalCost, Person, BookingDate, BookingSlot, SM1Qty, SM2Qty, SM3Qty, SM4Qty) 
+                         VALUES (@WaterPrice, @WaterQty, @CokePrice, @CokeQty, @CocktailPrice, @CocktailQty, @MuttonPrice, 
+                                 @MuttonQty, @ChickenPrice, @ChickenQty, @BeefPrice, @BeefQty, @TotalCost, @Person, 
+                                 @BookingDate, @BookingSlot, @SetMenu1, @SetMenu2, @SetMenu3, @SetMenu4);
+                         SELECT SCOPE_IDENTITY();";
+
                 SqlCommand cmd = new SqlCommand(query, Con);
 
                 cmd.Parameters.AddWithValue("@WaterPrice", WaterPrice.Text.Trim());
@@ -277,27 +335,24 @@ namespace WedGhor
                 cmd.Parameters.AddWithValue("@BeefPrice", BeefPrice.Text.Trim());
                 cmd.Parameters.AddWithValue("@BeefQty", BeefQty.Text.Trim());
                 cmd.Parameters.AddWithValue("@TotalCost", totalCost);
-
-                if (string.IsNullOrWhiteSpace(PersonTb.Text))
-                {
-                    MessageBox.Show("Please enter the number of persons.");
-                    return;
-                }
-
                 cmd.Parameters.AddWithValue("@Person", PersonTb.Text.Trim());
+                cmd.Parameters.AddWithValue("@BookingDate", bookingDate);
+                cmd.Parameters.AddWithValue("@BookingSlot", bookingSlot); // Ensure bookingSlot is not null
+                cmd.Parameters.AddWithValue("@SetMenu1", SM1QTb.Text.Trim());
+                cmd.Parameters.AddWithValue("@SetMenu2", SM2QTb.Text.Trim());
+                cmd.Parameters.AddWithValue("@SetMenu3", SM3QTb.Text.Trim());
+                cmd.Parameters.AddWithValue("@SetMenu4", SM4QTb.Text.Trim());
 
-                // Execute the query and retrieve the BookingId
                 var bookingId = cmd.ExecuteScalar();
 
                 Con.Close();
 
-                // Show BookingId in message box
                 MessageBox.Show($"Booking confirmed successfully! Your Booking ID is {bookingId}. Please keep this ID for future reference.");
 
+                // Transition to another form if necessary
                 CustomerPanel customerPanel = new CustomerPanel();
                 customerPanel.Show();
                 this.Hide();
-
             }
             catch (Exception ex)
             {
@@ -318,5 +373,118 @@ namespace WedGhor
             this.Hide();
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SM1Button_Click(object sender, EventArgs e)
+        {
+            if (SM1Cb.Checked && !string.IsNullOrEmpty(SM1PTb.Text) && !string.IsNullOrEmpty(SM1QTb.Text))
+            {
+                SetMenu1 = Convert.ToInt32(SM1PTb.Text) * Convert.ToInt32(SM1QTb.Text);
+            }
+            else
+            {
+                MessageBox.Show("Enter valid numeric values for Menu Price and Quantity");
+                return;
+            }
+            UpdateTotalCost();
+        }
+
+        private void SM2Button_Click(object sender, EventArgs e)
+        {
+            if (SM2Cb.Checked && !string.IsNullOrEmpty(SM2PTb.Text) && !string.IsNullOrEmpty(SM2QTb.Text))
+            {
+                SetMenu2 = Convert.ToInt32(SM2PTb.Text) * Convert.ToInt32(SM2QTb.Text);
+            }
+            else
+            {
+                MessageBox.Show("Enter valid numeric values for Menu Price and Quantity");
+                return;
+            }
+            UpdateTotalCost();
+        }
+
+        private void SM3Button_Click(object sender, EventArgs e)
+        {
+            if (SM3Cb.Checked && !string.IsNullOrEmpty(SM3PTb.Text) && !string.IsNullOrEmpty(SM3QTb.Text))
+            {
+                SetMenu3 = Convert.ToInt32(SM3PTb.Text) * Convert.ToInt32(SM3QTb.Text);
+            }
+            else
+            {
+                MessageBox.Show("Enter valid numeric values for Menu Price and Quantity");
+                return;
+            }
+            UpdateTotalCost();
+        }
+
+        private void SM4Button_Click(object sender, EventArgs e)
+        {
+            if (SM4Cb.Checked && !string.IsNullOrEmpty(SM4PTb.Text) && !string.IsNullOrEmpty(SM4QTb.Text))
+            {
+                SetMenu4 = Convert.ToInt32(SM4PTb.Text) * Convert.ToInt32(SM4QTb.Text);
+            }
+            else
+            {
+                MessageBox.Show("Enter valid numeric values for Menu Price and Quantity");
+                return;
+            }
+            UpdateTotalCost();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            SM1PTb.Enabled = SM1Cb.Checked;
+            SM1QTb.Enabled = SM1Cb.Checked;
+
+            if (!SM1Cb.Checked)
+            {
+                SM1PTb.Text = "";
+                SM1QTb.Text = "";
+            }
+        }
+
+        private void SM2Cb_CheckedChanged(object sender, EventArgs e)
+        {
+            SM2PTb.Enabled = SM2Cb.Checked;
+            SM2QTb.Enabled = SM2Cb.Checked;
+
+            if (!SM2Cb.Checked)
+            {
+                SM2PTb.Text = "";
+                SM2QTb.Text = "";
+            }
+        }
+
+        private void SM3Cb_CheckedChanged(object sender, EventArgs e)
+        {
+            SM3PTb.Enabled = SM3Cb.Checked;
+            SM3QTb.Enabled = SM3Cb.Checked;
+
+            if (!SM3Cb.Checked)
+            {
+                SM3PTb.Text = "";
+                SM3QTb.Text = "";
+            }
+        }
+
+        private void SM4Cb_CheckedChanged(object sender, EventArgs e)
+        {
+            SM4PTb.Enabled = SM4Cb.Checked;
+            SM4QTb.Enabled = SM4Cb.Checked;
+
+            if (!SM4Cb.Checked)
+            {
+                SM4PTb.Text = "";
+                SM4QTb.Text = "";
+            }
+        }
     }
 }

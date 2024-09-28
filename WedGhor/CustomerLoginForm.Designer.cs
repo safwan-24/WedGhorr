@@ -47,7 +47,7 @@
             TitleLabel.AutoSize = true;
             TitleLabel.Font = new Font("Algerian", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TitleLabel.ForeColor = Color.DeepPink;
-            TitleLabel.Location = new Point(102, 26);
+            TitleLabel.Location = new Point(80, 23);
             TitleLabel.Name = "TitleLabel";
             TitleLabel.Size = new Size(142, 31);
             TitleLabel.TabIndex = 0;
@@ -56,9 +56,10 @@
             // UsernameLabel
             // 
             UsernameLabel.AutoSize = true;
+            UsernameLabel.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             UsernameLabel.Location = new Point(39, 89);
             UsernameLabel.Name = "UsernameLabel";
-            UsernameLabel.Size = new Size(75, 20);
+            UsernameLabel.Size = new Size(78, 20);
             UsernameLabel.TabIndex = 1;
             UsernameLabel.Text = "Username";
             // 
@@ -79,15 +80,17 @@
             // PasswordLabel
             // 
             PasswordLabel.AutoSize = true;
+            PasswordLabel.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
             PasswordLabel.Location = new Point(39, 156);
             PasswordLabel.Name = "PasswordLabel";
-            PasswordLabel.Size = new Size(70, 20);
+            PasswordLabel.Size = new Size(73, 20);
             PasswordLabel.TabIndex = 4;
             PasswordLabel.Text = "Password";
             // 
             // CustomerLoginButton2
             // 
-            CustomerLoginButton2.Location = new Point(169, 221);
+            CustomerLoginButton2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            CustomerLoginButton2.Location = new Point(169, 210);
             CustomerLoginButton2.Name = "CustomerLoginButton2";
             CustomerLoginButton2.Size = new Size(94, 29);
             CustomerLoginButton2.TabIndex = 6;
@@ -97,7 +100,8 @@
             // 
             // BackToWelcomeButton
             // 
-            BackToWelcomeButton.Location = new Point(39, 221);
+            BackToWelcomeButton.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            BackToWelcomeButton.Location = new Point(39, 210);
             BackToWelcomeButton.Name = "BackToWelcomeButton";
             BackToWelcomeButton.Size = new Size(94, 29);
             BackToWelcomeButton.TabIndex = 7;
@@ -151,7 +155,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PapayaWhip;
+            BackColor = Color.BlanchedAlmond;
             ClientSize = new Size(613, 323);
             Controls.Add(label1);
             Controls.Add(pictureBox1);

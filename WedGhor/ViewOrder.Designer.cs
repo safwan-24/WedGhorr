@@ -49,6 +49,8 @@
             label2 = new Label();
             button2 = new Button();
             label9 = new Label();
+            textBox1 = new TextBox();
+            CheckProfitButton = new Button();
             ((System.ComponentModel.ISupportInitialize)ViewOrderDGV).BeginInit();
             SuspendLayout();
             // 
@@ -254,12 +256,31 @@
             label9.Text = "X";
             label9.Click += label9_Click;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(441, 467);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(149, 27);
+            textBox1.TabIndex = 75;
+            // 
+            // CheckProfitButton
+            // 
+            CheckProfitButton.Location = new Point(441, 500);
+            CheckProfitButton.Name = "CheckProfitButton";
+            CheckProfitButton.Size = new Size(149, 29);
+            CheckProfitButton.TabIndex = 76;
+            CheckProfitButton.Text = "Check Profit";
+            CheckProfitButton.UseVisualStyleBackColor = true;
+            CheckProfitButton.Click += CheckProfitButton_Click;
+            // 
             // ViewOrder
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkCyan;
             ClientSize = new Size(1088, 623);
+            Controls.Add(CheckProfitButton);
+            Controls.Add(textBox1);
             Controls.Add(label9);
             Controls.Add(button2);
             Controls.Add(DeleteBtn);
@@ -314,5 +335,7 @@
         private Label label2;
         private Button button2;
         private Label label9;
+        private TextBox textBox1;
+        private Button CheckProfitButton;
     }
 }

@@ -36,6 +36,8 @@
             button1 = new Button();
             label2 = new Label();
             textBox1 = new TextBox();
+            label3 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -51,28 +53,34 @@
             // 
             // Search
             // 
-            Search.Location = new Point(15, 154);
+            Search.BackColor = Color.Black;
+            Search.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            Search.ForeColor = Color.White;
+            Search.Location = new Point(56, 131);
             Search.Name = "Search";
             Search.Size = new Size(94, 29);
             Search.TabIndex = 1;
             Search.Text = "Search";
-            Search.UseVisualStyleBackColor = true;
+            Search.UseVisualStyleBackColor = false;
             Search.Click += Search_Click;
             // 
             // AddBtn
             // 
-            AddBtn.Location = new Point(280, 154);
+            AddBtn.BackColor = Color.Black;
+            AddBtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            AddBtn.ForeColor = Color.White;
+            AddBtn.Location = new Point(370, 154);
             AddBtn.Name = "AddBtn";
             AddBtn.Size = new Size(94, 29);
             AddBtn.TabIndex = 2;
             AddBtn.Text = "Add New";
-            AddBtn.UseVisualStyleBackColor = true;
+            AddBtn.UseVisualStyleBackColor = false;
             AddBtn.Click += AddBtn_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(125, 294);
+            label1.Location = new Point(134, 294);
             label1.Name = "label1";
             label1.Size = new Size(345, 20);
             label1.TabIndex = 3;
@@ -80,29 +88,35 @@
             // 
             // Confirm
             // 
-            Confirm.Location = new Point(380, 154);
+            Confirm.BackColor = Color.Black;
+            Confirm.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            Confirm.ForeColor = Color.White;
+            Confirm.Location = new Point(479, 154);
             Confirm.Name = "Confirm";
             Confirm.Size = new Size(120, 29);
             Confirm.TabIndex = 4;
             Confirm.Text = "Confirm Now";
-            Confirm.UseVisualStyleBackColor = true;
+            Confirm.UseVisualStyleBackColor = false;
             Confirm.Click += Confirm_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(506, 154);
+            button1.BackColor = Color.Black;
+            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(505, 282);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 5;
             button1.Text = "Back";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(580, 4);
+            label2.Location = new Point(580, 9);
             label2.Name = "label2";
             label2.Size = new Size(19, 20);
             label2.TabIndex = 6;
@@ -111,17 +125,39 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(15, 121);
+            textBox1.Location = new Point(115, 86);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 7;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Algerian", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(183, 19);
+            label3.Name = "label3";
+            label3.Size = new Size(235, 25);
+            label3.TabIndex = 8;
+            label3.Text = "see your booking";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(26, 89);
+            label4.Name = "label4";
+            label4.Size = new Size(83, 20);
+            label4.TabIndex = 9;
+            label4.Text = "Booking Id";
             // 
             // CustomerTrackOrder
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PapayaWhip;
+            BackColor = Color.BurlyWood;
             ClientSize = new Size(613, 323);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(button1);
@@ -150,5 +186,7 @@
         private Button button1;
         private Label label2;
         private TextBox textBox1;
+        private Label label3;
+        private Label label4;
     }
 }

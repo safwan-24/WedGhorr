@@ -37,8 +37,10 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             label3 = new Label();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // NagadCb
@@ -54,7 +56,7 @@
             // BkashCb
             // 
             BkashCb.AutoSize = true;
-            BkashCb.Location = new Point(418, 175);
+            BkashCb.Location = new Point(418, 199);
             BkashCb.Name = "BkashCb";
             BkashCb.Size = new Size(18, 17);
             BkashCb.TabIndex = 1;
@@ -118,7 +120,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.IMG_20240910_WA0011_1_;
-            pictureBox2.Location = new Point(444, 149);
+            pictureBox2.Location = new Point(444, 173);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(123, 70);
             pictureBox2.TabIndex = 8;
@@ -127,11 +129,22 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(211, 21);
+            label3.BackColor = Color.Wheat;
+            label3.Font = new Font("Algerian", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(120, 19);
             label3.Name = "label3";
-            label3.Size = new Size(198, 20);
+            label3.Size = new Size(384, 25);
             label3.TabIndex = 9;
             label3.Text = "Select your Payment Method";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.How_to_create_online_forms_with_payment_integration;
+            pictureBox3.Location = new Point(0, -1);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(613, 323);
+            pictureBox3.TabIndex = 10;
+            pictureBox3.TabStop = false;
             // 
             // PaymentForm
             // 
@@ -148,6 +161,7 @@
             Controls.Add(BackBtn);
             Controls.Add(BkashCb);
             Controls.Add(NagadCb);
+            Controls.Add(pictureBox3);
             FormBorderStyle = FormBorderStyle.None;
             Name = "PaymentForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -155,6 +169,7 @@
             Load += PaymentForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -170,5 +185,6 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label label3;
+        private PictureBox pictureBox3;
     }
 }
