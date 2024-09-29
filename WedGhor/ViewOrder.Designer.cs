@@ -265,12 +265,14 @@
             // 
             // CheckProfitButton
             // 
+            CheckProfitButton.BackColor = Color.Green;
+            CheckProfitButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             CheckProfitButton.Location = new Point(441, 500);
             CheckProfitButton.Name = "CheckProfitButton";
             CheckProfitButton.Size = new Size(149, 29);
             CheckProfitButton.TabIndex = 76;
             CheckProfitButton.Text = "Check Profit";
-            CheckProfitButton.UseVisualStyleBackColor = true;
+            CheckProfitButton.UseVisualStyleBackColor = false;
             CheckProfitButton.Click += CheckProfitButton_Click;
             // 
             // ViewOrder
